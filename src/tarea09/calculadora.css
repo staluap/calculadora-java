@@ -1,0 +1,118 @@
+/*CSS Calculadora Tarea 9 - Paula Serrano Torrecillas*/
+/*GENERAL*/
+.root {
+/*Color de fondo verde claro*/
+    -fx-background-color: #e5f8da;
+/*Padding por defecto de la plantilla ofrecida*/
+    -fx-padding: 30px;
+/*Fuente por defecto importada desde el archivo Calculadora.java en el método start*/
+    -fx-font-family: "Pokemon Emerald Regular";
+/*Tamaño de letra por defecto de la plantilla ofrecida*/    
+    -fx-font-size: 14px;
+/*Color de borde de texto*/       
+    -fx-border-color: #091b29;
+/*Grueso de borde*/       
+    -fx-border-width: 5;
+}
+
+/*VISOR*/
+.text-field {
+/*Color negro del fondo del visor*/
+    -fx-background-color: #091b29;
+/*Radio de los bordes redondeados del visor*/    
+    -fx-background-radius: 10;
+/*Ancho del visor*/        
+    -fx-pref-width: 380;
+/*Alto del visor*/      
+    -fx-pref-height: 95;
+/*Color de texto del visor en verde medio*/      
+    -fx-text-fill: #97c687;
+/*Tamaño de fuente del visor*/      
+    -fx-font-size: 50;
+/*Alineamos a la derecha, para que el efecto sea igual a muchas calculadoras comunes*/   
+    -fx-alignment: center-right;
+/*Cambiamos el color del texto y fondo si se subraya texto para copiarlo*/   
+    -fx-highlight-fill:#97c687;
+    -fx-highlight-text-fill:#e5f8da;
+}
+
+/*ESTILO DE BOTÓN POR DEFECTO*/
+.button {
+/*Color de fondo verde claro 8igual que el fondo*/    
+    -fx-background-color: #e5f8da;
+/*Añadimos margen interno*/       
+    -fx-background-insets: 5;
+/*Redondeamos los bordes*/     
+    -fx-background-radius: 10;
+/*Achura del botón*/     
+    -fx-pref-width: 95;
+/*Altura del botón*/      
+    -fx-pref-height: 95;
+/*Color de texto negro*/      
+    -fx-text-fill: #091b29;
+/*Tamaño de texto*/     
+    -fx-font-size: 40;
+/*Color de borde de texto*/       
+    -fx-border-color: #091b29;
+/*Grueso de borde*/       
+    -fx-border-width: 5;
+/*Margen y radio del borde para que coincida con el aplicado al fonfo y no haya desfase*/     
+    -fx-border-insets: 5;
+    -fx-border-radius: 10;
+}
+.button:hover {
+/*Al pasar por encima texto y borde cambia a verde medio*/    
+    -fx-border-color: #97c687;
+    -fx-text-fill: #97c687;
+}
+.button:pressed {
+/*Al presionar texto y borde vuelven a negro y el fondo pasa a verde medio*/     
+    -fx-background-color: #97c687;
+    -fx-border-color: #091b29;
+    -fx-text-fill: #091b29;
+}
+
+/*BOTONES OPERADORES*/
+.button-operador {
+/*Vamos a modificar el fondo de los operadores a verde oscuro*/
+    -fx-background-color: #417969;
+/*Y la letra a verde claro*/
+    -fx-text-fill: #e5f8da;
+}
+.button-operador:hover {
+/*Hemos decidido no añadir nada porque nos gusta como aplica la versión general*/
+}
+.button-operador:pressed {
+/*Hemos decidido no añadir nada porque nos gusta como aplica la versión general*/
+}
+
+/*BOTÓN IGUAL*/
+.button-igual {
+/*Vamos a modificar el fondo del igual a verde medio*/
+    -fx-background-color: #97c687;
+}
+.button-igual:hover {
+/*Vamos a modificar el hover general para que sea verde oscuro y no del mismo color del fondo*/
+    -fx-border-color: #417969;
+    -fx-text-fill: #417969;
+}
+.button-igual:pressed {
+/*Vamos a seguir el modelo general pero aplicando que el fondo sea verde oscuro y no medio*/     
+    -fx-background-color: #417969;
+    -fx-border-color: #091b29;
+    -fx-text-fill: #091b29;
+}
+
+
+/*BOTONES DE LIMPIAR*/
+.button-limpiar {
+/*Vamos a modificar el fondo a negro y el texto a verde claro*/
+    -fx-background-color: #091b29;
+    -fx-text-fill: #e5f8da;
+}
+.button-limpiar:hover {
+/*Hemos decidido no añadir nada porque nos gusta como aplica la versión general*/
+}
+.button-limpiar:pressed {
+/*Hemos decidido no añadir nada porque nos gusta como aplica la versión general*/
+}
