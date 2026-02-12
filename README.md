@@ -12,6 +12,7 @@ Además debía cumplir algunas normas para evitar errores o lanzar un mensaje de
 ## Tecnologías utilizadas
 - JDK 17
 - JavaFX
+- CSS
 - NetBeans
 
 ## Cómo ejecutar
@@ -35,6 +36,7 @@ Additionally, it follows certain rules to prevent errors or display an error mes
 ## Technologies used
 - JDK 17
 - JavaFX
+- CSS
 - NetBeans
 
 ## How to run
@@ -45,5 +47,6 @@ Additionally, it follows certain rules to prevent errors or display an error mes
 ## Author
 - staluap / Paula Serrano Torrecillas
 - Associate Degree in Web Application Development Student
+
 
 
