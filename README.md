@@ -1,10 +1,8 @@
-<!-- ![Captura de pantalla de la calculadora](calculadora01.png) -->
-
 <img src="calculadora01.png" alt="Captura de pantalla de la calculadora" width="400">
 
 <br><br>
 
-# <b>ES</b> CALCULADORA JAVA
+# ES: CALCULADORA JAVA
 
 ## Descripción
 Tarea estudiantil que consistió en usar Java y JavaFX para crear una aplicación de calculadora con interfaz de usuario.
@@ -28,7 +26,7 @@ Además debía cumplir algunas normas para evitar errores o lanzar un mensaje de
 
 <br><br>
 
-# <b>EN</b> JAVA CALCULATOR
+# EN: JAVA CALCULATOR
 
 Student project using Java and JavaFX to create a calculator application with a user interface.
 Performs basic operations: addition, subtraction, multiplication, and division, supporting decimals and parentheses.
@@ -47,4 +45,5 @@ Additionally, it follows certain rules to prevent errors or display an error mes
 ## Author
 - staluap / Paula Serrano Torrecillas
 - Associate Degree in Web Application Development Student
+
 
